@@ -17,3 +17,7 @@ tasks {
         gradleVersion = "7.3"
     }
 }
+
+dependencies {
+    implementation(group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version = "0.3.4")
+}
